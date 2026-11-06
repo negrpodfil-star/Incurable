@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "incurable",
+	"version": "${version}",
+	"name": "Incurable",
+	"description": "Global Medical Engine: a data-driven, permanent disease system for Fabric 26.3. Diseases never heal on their own - only a specific cure, procedure or item can remove them.",
+	"authors": [
+		"Incurable Team"
+	],
+	"contact": {},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.incurable.Incurable"
+		],
+		"client": [
+			"com.incurable.client.IncurableClient"
+		]
+	},
+	"mixins": [
+		"incurable.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

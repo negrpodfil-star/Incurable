@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.incurable.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"DiseaseTickMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
